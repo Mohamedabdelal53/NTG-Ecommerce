@@ -1,0 +1,48 @@
+.smartphones-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+}
+
+.smartphones-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.shop-all-btn {
+  background-color: #0866a1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-all-btn:hover {
+  background-color: #0866a1;
+}
+
+.smartphones-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.smartphones-gallery img {
+  max-width: 250px;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.smartphones-gallery img:active {
+  transform: translateY(-10px); /* Move the image up by 10px when touched */
+}
